@@ -1,0 +1,237 @@
+{
+  "womenProducts": [
+    {
+      "id": "1woman",
+      "name": "Women's clothing 1",
+      "currentPrice": 40.0,
+      "prevPrice": 50.99,
+      "image": "./resources/images/pf1.jpg",
+      "link" : "woman.html"
+    },
+    {
+      "id": "2woman",
+      "name": "Women's clothing 2",
+      "currentPrice": 14.13,
+      "prevPrice": 17.99,
+      "image": "./resources/images/pf2.jpg",
+      "link" : "woman.html"
+    },
+    {
+      "id": "3woman",
+      "name": "Women's clothing 3",
+      "currentPrice": 40.0,
+      "prevPrice": 50.99,
+      "image": "./resources/images/pf3.jpg",
+      "link" : "woman.html"
+    },
+    {
+      "id": "4woman",
+      "name": "Women's clothing 4",
+      "currentPrice": 43.0,
+      "prevPrice": 45.99,
+      "image": "./resources/images/pf4.jpg",
+      "link" : "woman.html"
+    },
+    {
+      "id": "5woman",
+      "name": "Women's clothing 5",
+      "currentPrice": 24.99,
+      "prevPrice": 35.99,
+      "image": "./resources/images/pf5.jpg",
+      "link" : "woman.html"
+    },
+    {
+      "id": "6woman",
+      "name": "Women's clothing 6",
+      "currentPrice": 15.99,
+      "prevPrice": 19.99,
+      "image": "./resources/images/pf6.jpg",
+      "link" : "woman.html"
+    },
+    {
+      "id": "7woman",
+      "name": "Women's clothing 7",
+      "currentPrice": 14.99,
+      "prevPrice": 18.99,
+      "image": "./resources/images/pf7.jpg",
+      "link" : "woman.html"
+    }
+  ],
+
+  "girlsProducts": [
+    {
+      "id": "1girl",
+      "name": "Girl's clothing 1",
+      "currentPrice": 40.0,
+      "prevPrice": 50.99,
+      "image": "./resources/images/pg1.jpg",
+      "link" : "girl.html"
+    },
+    {
+      "id": "2girl",
+      "name": "Girl's clothing 2",
+      "currentPrice": 14.13,
+      "prevPrice": 17.99,
+      "image": "./resources/images/pg2.jpg",
+      "link" : "girl.html"
+    },
+    {
+      "id": "3girl",
+      "name": "Girl's clothing 3",
+      "currentPrice": 40.0,
+      "prevPrice": 50.99,
+      "image": "./resources/images/pg3.jpg",
+      "link" : "girl.html"
+    },
+    {
+      "id": "4girl",
+      "name": "Girl's clothing 4",
+      "currentPrice": 43.0,
+      "prevPrice": 45.99,
+      "image": "./resources/images/pg4.jpg",
+      "link" : "girl.html"
+    },
+    {
+      "id": "5girl",
+      "name": "Girl's clothing 5",
+      "currentPrice": 24.99,
+      "prevPrice": 35.99,
+      "image": "./resources/images/pg5.jpg",
+      "link" : "girl.html"
+    },
+    {
+      "id": "6girl",
+      "name": "Girl's clothing 6",
+      "currentPrice": 15.99,
+      "prevPrice": 19.99,
+      "image": "./resources/images/pg6.jpg",
+      "link" : "girl.html"
+    },
+    {
+      "id": "7girl",
+      "name": "Girl's clothing 7",
+      "currentPrice": 14.99,
+      "prevPrice": 18.99,
+      "image": "./resources/images/pg7.jpg",
+      "link" : "girl.html"
+    }
+  ],
+
+  "menProducts": [
+    {
+      "id": "1man",
+      "name": "Men's clothing 1",
+      "currentPrice": 40.0,
+      "prevPrice": 50.99,
+      "image": "./resources/images/pm1.jpg",
+      "link" : "man.html"
+    },
+    {
+      "id": "2man",
+      "name": "Men's clothing 2",
+      "currentPrice": 14.13,
+      "prevPrice": 17.99,
+      "image": "./resources/images/pm2.jpg",
+      "link" : "man.html"
+    },
+    {
+      "id": "3man",
+      "name": "Men's clothing 3",
+      "currentPrice": 40.0,
+      "prevPrice": 50.99,
+      "image": "./resources/images/pm11.jpg",
+      "link" : "man.html"
+    },
+    {
+      "id": "4man",
+      "name": "Men's clothing 4",
+      "currentPrice": 43.0,
+      "prevPrice": 45.99,
+      "image": "./resources/images/pt1.jpg",
+      "link" : "man.html"
+    },
+    {
+      "id": "5man",
+      "name": "Men's clothing 5",
+      "currentPrice": 24.99,
+      "prevPrice": 35.99,
+      "image": "./resources/images/pt2.jpg",
+      "link" : "man.html"
+    },
+    {
+      "id": "6man",
+      "name": "Men's clothing 6",
+      "currentPrice": 15.99,
+      "prevPrice": 19.99,
+      "image": "./resources/images/pt3.jpg",
+      "link" : "man.html"
+    },
+    {
+      "id": "7man",
+      "name": "Men's clothing 7",
+      "currentPrice": 14.99,
+      "prevPrice": 18.99,
+      "image": "./resources/images/pt4.jpg",
+      "link" : "man.html"
+    }
+  ],
+
+  "boysProducts": [
+    {
+      "id": "1boy",
+      "name": "Boys's clothing 1",
+      "currentPrice": 40.0,
+      "prevPrice": 50.99,
+      "image": "./resources/images/pb1.jpg",
+      "link" : "boy.html"
+    },
+    {
+      "id": "2boy",
+      "name": "Boys's clothing 2",
+      "currentPrice": 14.13,
+      "prevPrice": 17.99,
+      "image": "./resources/images/pb2.jpg",
+      "link" : "boy.html"
+    },
+    {
+      "id": "3boy",
+      "name": "Boys's clothing 3",
+      "currentPrice": 40.0,
+      "prevPrice": 50.99,
+      "image": "./resources/images/pb3.jpg",
+      "link" : "boy.html"
+    },
+    {
+      "id": "4boy",
+      "name": "Boys's clothing 4",
+      "currentPrice": 43.0,
+      "prevPrice": 45.99,
+      "image": "./resources/images/pb4.jpg",
+      "link" : "boy.html"
+    },
+    {
+      "id": "5boy",
+      "name": "Boys's clothing 5",
+      "currentPrice": 24.99,
+      "prevPrice": 35.99,
+      "image": "./resources/images/pb5.jpg",
+      "link" : "boy.html"
+    },
+    {
+      "id": "6boy",
+      "name": "Boys's clothing 6",
+      "currentPrice": 15.99,
+      "prevPrice": 19.99,
+      "image": "./resources/images/pb6.jpg",
+      "link" : "boy.html"
+    },
+    {
+      "id": "7boy",
+      "name": "Boys's clothing 7",
+      "currentPrice": 14.99,
+      "prevPrice": 18.99,
+      "image": "./resources/images/pb7.jpg",
+      "link" : "boy.html"
+    }
+  ]
+}

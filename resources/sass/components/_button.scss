@@ -1,0 +1,61 @@
+.btn-primary {
+  padding: 1rem 1.5rem;
+  background-color: #007bff;
+  color: $white;
+  font-weight: bold;
+  font-size: $default-font + .2;
+  text-transform: capitalize;
+  border-radius: .5rem;
+  display: inline-block;
+  transition: $transition-time;
+
+  &:hover {
+    background-color: #0069D9;
+  }
+}
+
+.btn-transparent {
+  color: $white;
+  border: 2px solid $white;
+  font-size: 2rem;
+  padding: .6rem 2.5rem;
+  letter-spacing: .2rem;
+  display: inline-block;
+  transition: $transition-time;
+
+  &:hover {
+    box-shadow: .3rem .3rem .3rem rgba($white, .3);
+  }
+}
+
+.submit-btn {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  background-color: $black;
+  color: $white;
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+.view-more-btn {
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  background-color: $primary-color;
+  font-size: 2.3rem;
+  color: $white;
+  text-transform: capitalize;
+  transition: $transition-time;
+  display: inline-block;
+
+  @media (max-width: 768px) {
+    width: 80%;
+    text-align: center;
+  }
+
+  &:hover {
+    background-color: $secondary-color;
+  }
+}

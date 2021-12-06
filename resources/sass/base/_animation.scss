@@ -1,0 +1,38 @@
+@keyframes showDropDown {
+  to {
+    opacity: 1;
+    top: 92%;
+  }
+}
+
+@keyframes show {
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(-30deg);
+  }
+
+  50% {
+    transform: rotate(30deg);
+  }
+
+  100% {
+    transform: rotate(-30deg);
+  }
+}

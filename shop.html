@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- META DESCRIPTION -->
+  <meta name="description" content="we have good things">
+  <!-- META KEYWORDS -->
+  <meta name="keywords" content="keywords here">
+  <!-- META AUTHOR -->
+  <meta name="author" content="mohamed khalid">
+  <title>Fashion</title>
+  
+  <link rel="icon" href="resources/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="vendors/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="vendors/css/all.min.css">
+  <link rel="stylesheet" href="resources/css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header py-2">
+    <div class="container">
+      <div class=" first-nav">
+        <div class="container d-flex justify-content-between align-items-center px-1">
+          <div class="header__logo">
+            <a href="index.html" class="font-special">
+              F<span class="letter-sky">H</span>
+            </a>
+          </div>
+      
+          <div class="header__options d-flex align-items-center">
+            <form class="header__options--form mr-2 mr-sm-4">
+              <select class="header__options--form--select mr-2 mr-sm-4" name="category">
+                <option value="all">Search our store</option>
+                <optgroup label="Mens">
+                  <option value="T-Shirts">T-Shirts</option>
+                  <option value="coats-jackets">Coats &amp; Jackets</option>
+                  <option value="Shirts">Shirts</option>
+                  <option value="Suits &amp; Blazers">Suits &amp; Blazers</option>
+                  <option value="Jackets">Jackets</option>
+                  <option value="Sweat Shirts">Trousers</option>
+                </optgroup>
+                <optgroup label="Womens">
+                  <option value="Dresses">Dresses</option>
+                  <option value="T-shirts">T-shirts</option>
+                  <option value="skirts">Skirts</option>
+                  <option value="jeans">Jeans</option>
+                  <option value="Tunics">Tunics</option>
+                </optgroup>
+                <optgroup label="Girls">
+                  <option value="Dresses">Dresses</option>
+                  <option value="T-shirts">T-shirts</option>
+                  <option value="skirts">Skirts</option>
+                  <option value="jeans">Jeans</option>
+                  <option value="Tops">Tops</option>
+                </optgroup>
+                <optgroup label="Boys">
+                  <option value="T-Shirts">T-Shirts</option>
+                  <option value="coats-jackets">Coats &amp; Jackets</option>
+                  <option value="Shirts">Shirts</option>
+                  <option value="Suits &amp; Blazers">Suits &amp; Blazers</option>
+                  <option value="Jackets">Jackets</option>
+                  <option value="Sweat Shirts">Sweat Shirts</option>
+                </optgroup>
+              </select>
+              <input type="submit" value="Search" class="header__options--form--search">
+            </form>
+      
+            <div class="header__icons d-flex">
+              <div class="header__icons--user"><i class="far fa-user"></i></div>
+              <div class="header__icons--cart"><i class="fas fa-cart-plus"><span>0</span></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Navigation -->
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="index.html" class="navigation__link">Home</a>
+          </li>
+      
+          <li class="navigation__item">
+            <a href="" class="navigation__link dropdown-toggle">Men's clothing</a>
+            <div class="navigation__dropdown">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 mb-4 mb-md-0">
+                    <a class="navigation__dropdown--link" href="men.html">T-Shirts</a>
+                    <a class="navigation__dropdown--link" href="men.html">Coats</a>
+                    <a class="navigation__dropdown--link" href="men.html">Shirts</a>
+                    <a class="navigation__dropdown--link" href="men.html">Suits &amp; Blazers</a>
+                    <a class="navigation__dropdown--link" href="men.html">Jackets</a>
+                    <a class="navigation__dropdown--link" href="men.html">Trousers</a>
+                  </div>
+                  <div class="col-md-4 mb-4 mb-md-0">
+                    <a class="navigation__dropdown--link" href="men.html">T-Shirts</a>
+                    <a class="navigation__dropdown--link" href="men.html">Trousers</a>
+                    <a class="navigation__dropdown--link" href="men.html">Shirts</a>
+                    <a class="navigation__dropdown--link" href="men.html">Suits &amp; Blazers</a>
+                    <a class="navigation__dropdown--link" href="men.html">Coats &amp; Jackets</a>
+                    <a class="navigation__dropdown--link" href="men.html">Jackets</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="navigation__dropdown--link" href="men.html">T-Shirts</a>
+                    <a class="navigation__dropdown--link" href="men.html">Coats</a>
+                    <a class="navigation__dropdown--link" href="men.html">Shirts</a>
+                    <a class="navigation__dropdown--link" href="men.html">Suits &amp; Blazers</a>
+                    <a class="navigation__dropdown--link" href="men.html">Jackets</a>
+                    <a class="navigation__dropdown--link" href="men.html">Trousers</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+      
+          <li class="navigation__item">
+            <a href="" class="navigation__link dropdown-toggle">Women's clothing</a>
+            <div class="navigation__dropdown">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 mb-4 mb-md-0">
+                    <a class="navigation__dropdown--link" href="women.html">Dresses</a>
+                    <a class="navigation__dropdown--link" href="women.html">T-shirts</a>
+                    <a class="navigation__dropdown--link" href="women.html">Skirts</a>
+                    <a class="navigation__dropdown--link" href="women.html">Jeans</a>
+                    <a class="navigation__dropdown--link" href="women.html">Tunics</a>
+                  </div>
+                  <div class="col-md-4 mb-4 mb-md-0">
+                    <a class="navigation__dropdown--link" href="women.html">T-shirts</a>
+                    <a class="navigation__dropdown--link" href="women.html">Dresses</a>
+                    <a class="navigation__dropdown--link" href="women.html">Tunics</a>
+                    <a class="navigation__dropdown--link" href="women.html">Skirts</a>
+                    <a class="navigation__dropdown--link" href="women.html">Jeans</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="navigation__dropdown--link" href="women.html">Dresses</a>
+                    <a class="navigation__dropdown--link" href="women.html">T-shirts</a>
+                    <a class="navigation__dropdown--link" href="women.html">Skirts</a>
+                    <a class="navigation__dropdown--link" href="women.html">Jeans</a>
+                    <a class="navigation__dropdown--link" href="women.html">Tunics</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+      
+          <li class="navigation__item">
+            <a href="" class="navigation__link dropdown-toggle">Kids clothing</a>
+            <div class="navigation__dropdown">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 mb-4 mb-md-0">
+                    <a class="navigation__dropdown--link" href="girls.html">Dresses</a>
+                    <a class="navigation__dropdown--link" href="girls.html">T-shirts</a>
+                    <a class="navigation__dropdown--link" href="girls.html">Skirts</a>
+                    <a class="navigation__dropdown--link" href="girls.html">Jeans</a>
+                    <a class="navigation__dropdown--link" href="girls.html">Tunics</a>
+                  </div>
+                  <div class="col-md-4 mb-4 mb-md-0">
+                    <a class="navigation__dropdown--link" href="boys.html">T-shirts</a>
+                    <a class="navigation__dropdown--link" href="boys.html">Dresses</a>
+                    <a class="navigation__dropdown--link" href="boys.html">Tunics</a>
+                    <a class="navigation__dropdown--link" href="boys.html">Skirts</a>
+                    <a class="navigation__dropdown--link" href="boys.html">Jeans</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="navigation__dropdown--link" href="girls.html">Dresses</a>
+                    <a class="navigation__dropdown--link" href="boys.html">T-shirts</a>
+                    <a class="navigation__dropdown--link" href="girls.html">Skirts</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+      
+          <li class="navigation__item">
+            <a href="shop.html" class="navigation__link active">Shop</a>
+          </li>
+          <li class="navigation__item">
+            <a href="blog.html" class="navigation__link">Blog</a>
+          </li>
+          <li class="navigation__item">
+            <a href="contact.html" class="navigation__link">Contact</a>
+          </li>
+        </ul>
+      
+        <button class="navigation__icon d-block d-md-none">
+          <span class="navigation__icon--container">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+      </nav>
+      <!-- /Navigation -->
+    </div>
+  </header>
+
+  <div class="secondary-header">
+    <h1 class="heading-primary white pt-5 text-center">
+      <span class="font-special">F</span>ashion <span class="font-special">H</span>ub
+    </h1>
+  </div>
+  <!-- /Header -->
+
+  <!-- Path -->
+  <div class="page-path">
+    <a class="page-path__prev" href="index.html">Home</a> / <span class="page-path__current">Shop</span>
+  </div>
+  <!-- /Path -->
+
+  <main>
+    <section class="collection-section section-padding">
+      <div class="container">
+        <h4 class="collection-heading mb-5">Men's collection</h4>
+        <div class="row margin-b-medium men--js">
+          <!-- <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="product">
+              <div class="product__image">
+                <div class="overlay"><a href="man.html" class="overlay-btn">Quick View</a></div>
+                <img src="./resources/images/pm11.jpg" alt="product">
+              </div>
+              <div class="product__text">
+                <h6 class="product__title">Solid Formal Black Shirt</h6>
+                <div class="product__price d-flex justify-content-between">
+                  <span>&dollar;40.00</span>
+                  <span>&dollar;50.99</span>
+                </div>
+                <div class="product__cart">
+                  <i class="fas fa-cart-plus add-to-cart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="product">
+              <div class="product__image">
+                <div class="overlay"><a href="man.html" class="overlay-btn">Quick View</a></div>
+                <img src="./resources/images/pm12.jpg" alt="product">
+              </div>
+              <div class="product__text">
+                <h6 class="product__title">Solid Formal Black Shirt</h6>
+                <div class="product__price d-flex justify-content-between">
+                  <span>&dollar;40.00</span>
+                  <span>&dollar;50.99</span>
+                </div>
+                <div class="product__cart">
+                  <i class="fas fa-cart-plus add-to-cart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-5 mb-md-0">
+            <div class="product">
+              <div class="product__image">
+                <div class="overlay"><a href="man.html" class="overlay-btn">Quick View</a></div>
+                <img src="./resources/images/pm13.jpg" alt="product">
+              </div>
+              <div class="product__text">
+                <h6 class="product__title">Solid Formal Black Shirt</h6>
+                <div class="product__price d-flex justify-content-between">
+                  <span>&dollar;40.00</span>
+                  <span>&dollar;50.99</span>
+                </div>
+                <div class="product__cart">
+                  <i class="fas fa-cart-plus add-to-cart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center align-items-center">
+            <a href="men.html" class="view-more-btn">View more</a>
+          </div> -->
+        </div>
+
+        <h4 class="collection-heading mb-5">women's collection</h4>
+        <div class="row margin-b-medium women--js">
+          <!--
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="product">
+              <div class="product__image">
+                <div class="overlay"><a href="woman.html" class="overlay-btn">Quick View</a></div>
+                <img src="./resources/images/pf1.jpg" alt="product">
+              </div>
+              <div class="product__text">
+                <h6 class="product__title">Solid Formal Black Shirt</h6>
+                <div class="product__price d-flex justify-content-between">
+                  <span>&dollar;40.00</span>
+                  <span>&dollar;50.99</span>
+                </div>
+                <div class="product__cart">
+                  <i class="fas fa-cart-plus add-to-cart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="product">
+              <div class="product__image">
+                <div class="overlay"><a href="woman.html" class="overlay-btn">Quick View</a></div>
+                <img src="./resources/images/pf2.jpg" alt="product">
+              </div>
+              <div class="product__text">
+                <h6 class="product__title">Solid Formal Black Shirt</h6>
+                <div class="product__price d-flex justify-content-between">
+                  <span>&dollar;40.00</span>
+                  <span>&dollar;50.99</span>
+                </div>
+                <div class="product__cart">
+                  <i class="fas fa-cart-plus add-to-cart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-5 mb-md-0">
+            <div class="product">
+              <div class="product__image">
+                <div class="overlay"><a href="woman.html" class="overlay-btn">Quick View</a></div>
+                <img src="./resources/images/pf3.jpg" alt="product">
+              </div>
+              <div class="product__text">
+                <h6 class="product__title">Solid Formal Black Shirt</h6>
+                <div class="product__price d-flex justify-content-between">
+                  <span>&dollar;40.00</span>
+                  <span>&dollar;50.99</span>
+                </div>
+                <div class="product__cart">
+                  <i class="fas fa-cart-plus add-to-cart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center align-items-center">
+            <a href="women.html" class="view-more-btn">View more</a>
+          </div>
+        -->
+      </div>
+        
+        <h4 class="collection-heading mb-5">Girl's collection</h4>
+        <div class="row margin-b-medium girls--js">
+          <!--
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="product">
+              <div class="product__image">
+                <div class="overlay"><a href="girl.html" class="overlay-btn">Quick View</a></div>
+                <img src="./resources/images/pg4.jpg" alt="product">
+              </div>
+              <div class="product__text">
+                <h6 class="product__title">Solid Formal Black Shirt</h6>
+                <div class="product__price d-flex justify-content-between">
+                  <span>&dollar;40.00</span>
+                  <span>&dollar;50.99</span>
+                </div>
+                <div class="product__cart">
+                  <i class="fas fa-cart-plus add-to-cart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="product">
+              <div class="product__image">
+                <div class="overlay"><a href="girl.html" class="overlay-btn">Quick View</a></div>
+                <img src="./resources/images/pg5.jpg" alt="product">
+              </div>
+              <div class="product__text">
+                <h6 class="product__title">Solid Formal Black Shirt</h6>
+                <div class="product__price d-flex justify-content-between">
+                  <span>&dollar;40.00</span>
+                  <span>&dollar;50.99</span>
+                </div>
+                <div class="product__cart">
+                  <i class="fas fa-cart-plus add-to-cart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-5 mb-md-0">
+            <div class="product">
+              <div class="product__image">
+                <div class="overlay"><a href="girl.html" class="overlay-btn">Quick View</a></div>
+                <img src="./resources/images/pg6.jpg" alt="product">
+              </div>
+              <div class="product__text">
+                <h6 class="product__title">Solid Formal Black Shirt</h6>
+                <div class="product__price d-flex justify-content-between">
+                  <span>&dollar;40.00</span>
+                  <span>&dollar;50.99</span>
+                </div>
+                <div class="product__cart">
+                  <i class="fas fa-cart-plus add-to-cart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center align-items-center">
+            <a href="girls.html" class="view-more-btn">View more</a>
+          </div>
+        -->
+        </div>
+
+        <h4 class="collection-heading mb-5">Boy's collection</h4>
+        <div class="row boys--js">
+          <!--
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="product">
+              <div class="product__image">
+                <div class="overlay"><a href="boy.html" class="overlay-btn">Quick View</a></div>
+                <img src="./resources/images/pb9.jpg" alt="product">
+              </div>
+              <div class="product__text">
+                <h6 class="product__title">Solid Formal Black Shirt</h6>
+                <div class="product__price d-flex justify-content-between">
+                  <span>&dollar;40.00</span>
+                  <span>&dollar;50.99</span>
+                </div>
+                <div class="product__cart">
+                  <i class="fas fa-cart-plus add-to-cart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="product">
+              <div class="product__image">
+                <div class="overlay"><a href="boy.html" class="overlay-btn">Quick View</a></div>
+                <img src="./resources/images/pb10.jpg" alt="product">
+              </div>
+              <div class="product__text">
+                <h6 class="product__title">Solid Formal Black Shirt</h6>
+                <div class="product__price d-flex justify-content-between">
+                  <span>&dollar;40.00</span>
+                  <span>&dollar;50.99</span>
+                </div>
+                <div class="product__cart">
+                  <i class="fas fa-cart-plus add-to-cart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-5 mb-md-0">
+            <div class="product">
+              <div class="product__image">
+                <div class="overlay"><a href="boy.html" class="overlay-btn">Quick View</a></div>
+                <img src="./resources/images/pb11.jpg" alt="product">
+              </div>
+              <div class="product__text">
+                <h6 class="product__title">Solid Formal Black Shirt</h6>
+                <div class="product__price d-flex justify-content-between">
+                  <span>&dollar;40.00</span>
+                  <span>&dollar;50.99</span>
+                </div>
+                <div class="product__cart">
+                  <i class="fas fa-cart-plus add-to-cart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center align-items-center">
+            <a href="boys.html" class="view-more-btn">View more</a>
+          </div>
+        -->
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Cart -->
+    <div class="cart">
+      <div class="cart__heading">
+        <h2>Your cart</h2>
+        <i class="fa fa-window-close cart-close"></i>
+      </div>
+      <div class="cart__body"></div>
+      <div class="cart__footer">
+        <h3>your total : $ <span class="cart-total">0</span></h3>
+        <a href="">Order now</a>
+      </div>
+    </div>
+    <!-- /Cart -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer section-padding px-5">
+    <div class="row px-4">
+      <div class="col-lg-2 col-sm-6 mb-5 mb-lg-0">
+        <h4 class="footer__col-heading">support</h4>
+        <a class="footer__link" href="payment.html">Payment</a>
+        <a class="footer__link" href="shop.html">Shopping</a>
+        <a class="footer__link" href="">Cancellation & Returns</a>
+        <a class="footer__link" href="faq.html">FAQ</a>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+        <h4 class="footer__col-heading">Latest blog</h4>
+        <div class="footer__blog">
+          <div class="footer__blog--item d-flex align-items-start">
+            <img src="./resources/images/bl2.jpg" alt="">
+            <a class="footer__link" href="blog.html">eveniie arcet ut moles morbi dapiti</a>
+          </div>
+          <div class="footer__blog--item d-flex align-items-start">
+            <img src="./resources/images/bl1.jpg" alt="">
+            <a class="footer__link" href="blog.html">earum rerum tenmorbi dapiti et</a>
+          </div>
+          <div class="footer__blog--item d-flex align-items-start">
+            <img src="./resources/images/bl3.jpg" alt="">
+            <a class="footer__link" href="blog.html">morbi dapiti eveniet ut molesti</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-sm-6 mb-5 mb-lg-0">
+        <h4 class="footer__col-heading">locations</h4>
+        <a class="footer__link" href="payment.html">New Jersey</a>
+        <a class="footer__link" href="faq.html">Texas</a>
+        <a class="footer__link" href="faq.html">Michigan</a>
+        <a class="footer__link" href="faq.html">Canada</a>
+        <a class="footer__link" href="faq.html">Brazil</a>
+        <a class="footer__link" href="faq.html">California</a>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+        <h4 class="footer__col-heading">Posts</h4>
+        <div class="footer__posts-images">
+          <a href=""><img src="./resources/images/bl4.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl1.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl2.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl3.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl5.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl6.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl5.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl3.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl1.jpg" alt=""></a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-sm-6">
+        <h4 class="footer__col-heading">Popular tags</h4>
+        <div class="footer__tags d-flex flex-wrap">
+          <a href="shop.html">amet</a>
+          <a href="shop.html">placerat</a>
+          <a href="shop.html">Proin </a>
+          <a href="shop.html">vehicula</a>
+          <a href="shop.html">diam</a>
+          <a href="shop.html">velit</a>
+          <a href="shop.html">felis</a>
+          <a href="shop.html">mauris</a>
+          <a href="shop.html">amet</a>
+          <a href="shop.html">placerat</a>
+          <a href="shop.html">Proin </a>
+          <a href="shop.html">vehicula</a>
+          <a href="shop.html">diam</a>
+          <a href="shop.html">velit</a>
+          <a href="shop.html">felis</a>
+          <a href="shop.html">mauris</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- /Footer -->
+
+  <!-- loader -->
+  <div class="loader">
+    <div class="fa fa-shopping-basket icon-basket"></div>
+  </div>
+  <!-- /loader -->
+
+  <script src="resources/js/global.js"></script>
+  <script src="resources/js/shopPageCart.js"></script>
+</body>
+
+</html>

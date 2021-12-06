@@ -1,0 +1,83 @@
+.contact {
+
+  &__info {
+    padding-left: 3rem;
+    margin-bottom: 3rem;
+
+    &--text {
+      color: $gray;
+      display: block;
+
+      &:not(:last-of-type) {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+.form {
+  &__heading {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+  }
+
+  &__group {
+    margin: 1.5rem 0;
+
+    label {
+      color: $dark-gray;
+      display: inline-block;
+      margin-bottom: 0.5rem;
+      font-size: 1.8rem;
+    }
+
+    input,
+    textarea {
+      display: block;
+      width: 100%;
+      padding: 1rem;
+      border-radius: 4px;
+      outline: none;
+      border: 2px solid $light-gray;
+      transition: $transition-time;
+
+      &:focus {
+        border: 2px solid $primary-color;
+      }
+    }
+
+    textarea {
+      height: 10rem;
+      resize: none;
+    }
+
+    .btn-primary {
+      font-size: 1.6rem;
+      font-weight: 400;
+      background-color: #17a2b8;
+      cursor: pointer;
+      transition: $transition-time;
+
+      &:hover {
+        background-color: $secondary-color-dark;
+      }
+    }
+  }
+}
+
+.form-group {
+  margin: 1.8rem 0;
+}
+
+.map {
+  width: 100%;
+  height: 35rem;
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: .5rem solid $secondary-color-dark;
+  }
+}

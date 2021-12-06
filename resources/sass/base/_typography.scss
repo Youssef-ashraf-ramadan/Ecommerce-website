@@ -1,0 +1,119 @@
+.font-special {
+  font-family: cursive;
+}
+
+.letter-sky {
+  color: $primary-color;
+}
+
+.heading-primary {
+  font-size: 5.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 4rem;
+
+  @media (max-width: 576px) {
+    line-height: 7rem;
+  }
+
+  .font-special {
+    font-size: 14rem;
+
+    @media (max-width: 576px) {
+      font-size: 9rem;
+    }
+
+    @media (max-width: 369px) {
+      font-size: 7rem;
+    }
+  }
+
+  .big-font {
+    color: $tertiary-color;
+  }
+
+  &__sub {
+    display: block;
+    font-size: 1.8rem;
+    letter-spacing: .9rem;
+    word-spacing: 1rem;
+    font-weight: 700;
+
+    @media (max-width: 576px) {
+      letter-spacing: .6rem;
+      word-spacing: .9rem;
+      line-height: 4rem;
+    }
+
+    @media (max-width: 369px) {
+      letter-spacing: .45rem;
+    }
+  }
+
+  &.margin-b-large {
+    @media (max-width: 346px) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.heading-secondary {
+  font-size: 5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+
+  .font-special {
+    color: $secondary-color;
+    font-weight: 600;
+  }
+}
+
+.heading-tertiary {
+  font-size: 3.5rem;
+  font-weight: 400;
+
+  .font-special {
+    font-size: 6rem;
+  }
+}
+
+.fourth-heading {
+  font-size: 3.6rem;
+  font-weight: 600;
+
+  .offer {
+    display: inline-block;
+    color: red;
+    font-size: 6.4rem;
+    font-weight: 700;
+  }
+}
+
+.tab-heading {
+  background-color: $light-gray;
+  display: inline-block;
+  padding: 1rem 8rem 1rem 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+
+.collection-heading {
+  color: $primary-color;
+  font-size: 3rem;
+  border-bottom: 1px solid rgba($color: $black, $alpha: .2);
+  font-weight: 400;
+  text-transform: capitalize;
+  width: 75%;
+}
+
+.info-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.white {
+  color: $white;
+}

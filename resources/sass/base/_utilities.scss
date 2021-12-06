@@ -1,0 +1,31 @@
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.section-padding {
+  padding: 9rem 0;
+
+  @media (max-width: 992px) {
+    padding: 7rem 0;
+  }
+}
+
+.margin-b-medium {
+  margin-bottom: 6rem;
+}
+.margin-b-large {
+  margin-bottom: 8rem;
+}
+
+.margin-b-huge {
+  margin-bottom: 10rem;
+}
+
+.section-bg {
+  background-color: #f7f7f7;
+}
+

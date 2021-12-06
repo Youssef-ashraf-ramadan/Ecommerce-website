@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+html {
+  font-size: 62.5%;
+
+  @media (max-width: 992px) {
+    font-size: 56%;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 50%;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 48%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: $default-font;
+  // height: 400rem;
+}
+
+a {
+
+  &,
+  &:link,
+  &:visited,
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: $coffee;
+  z-index: 999999999;
+
+  &.hidden {
+    animation: hide 1s ease forwards;
+  }
+
+  .icon-basket {
+    font-size: 6rem;
+    color: $tertiary-color;
+    transform-origin: top;
+    animation: rotation 2s ease infinite;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

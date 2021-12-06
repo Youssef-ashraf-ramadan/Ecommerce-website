@@ -1,0 +1,247 @@
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  border-bottom: 2px solid $gray;
+  margin-bottom: 5rem;
+
+  @media (max-width: 420px) {
+    flex-direction: column;
+  }
+
+  &__item {
+    text-align: center;
+    flex: 1;
+
+    @media (max-width: 992px) {
+      flex: 0 0 50%;
+    }
+
+    @media (max-width: 420px) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__link {
+    display: block;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding: .9rem .5rem;
+    color: $gray;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    white-space: nowrap;
+    transition: $transition-time;
+
+    &:hover {
+      border: 1px solid $light-gray;
+    }
+
+    &.active {
+      color: $secondary-color;
+      background-color: $light-gray;
+    }
+  }
+}
+
+.tabs-body {
+  position: relative;
+  width: 100%;
+  height: 60rem;
+
+  @media (max-width: 1200px) {
+    height: 48rem;
+  }
+
+  @media (max-width: 992px) {
+    height: 57rem;
+  }
+
+  @media (max-width: 885px) {
+    height: 53rem;
+  }
+
+  @media (max-width: 769px) {
+    height: 70rem;
+  }
+
+  @media (max-width: 670px) {
+    height: 65rem;
+  }
+
+  @media (max-width: 600px) {
+    height: 60rem;
+  }
+
+  @media (max-width: 530px) {
+    height: 50rem;
+  }
+
+  @media (max-width: 420px) {
+    height: 45rem;
+  }
+
+  .tab {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: scale(0);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .7s;
+
+    &.active {
+      transform: scale(1);
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.payment-section {
+  .tabs {
+    margin-bottom: 0;
+    border-bottom: 0;
+
+    &__link {
+      font-size: 2rem;
+      word-spacing: normal;
+      letter-spacing: normal;
+      color: $black;
+
+      &.active {
+        color: $white;
+        background-color: $secondary-color;
+      }
+    }
+  }
+
+  .tabs-body {
+    border: 1px solid $gray;
+  }
+
+  &__tab {
+    padding: 4rem 6rem;
+
+    &--check {
+      input {
+        display: none;
+
+        &:checked+label {
+          &::after {
+            display: block;
+          }
+
+          &::before {
+            border: 1px solid $secondary-color;
+            background-color: $black;
+          }
+        }
+      }
+
+      label {
+        position: relative;
+        cursor: pointer;
+
+        &::before {
+          content: '';
+          width: 1.5rem;
+          height: 1.5rem;
+          background-color: $white;
+          border: 1px solid $gray;
+          position: absolute;
+          left: calc(-1.5rem - .5rem);
+          top: 50%;
+          transform: translateY(-50%);
+          cursor: pointer;
+        }
+
+        &::after {
+          content: '';
+          width: 1.3rem;
+          height: .9rem;
+          border-bottom: 3px solid $white;
+          border-left: 3px solid $white;
+          position: absolute;
+          left: calc(-1.5rem - .4rem);
+          top: 45%;
+          transform: translateY(-50%) rotate(-65deg);
+          display: none;
+        }
+      }
+    }
+
+    &--form {
+      label {
+        display: inline-block;
+        margin-bottom: 1rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+      }
+
+      input {
+        display: block;
+        width: 100%;
+        padding: 1rem 1.3rem;
+        font-size: $default-font;
+        font-weight: 600;
+        outline: none;
+        border: none;
+        border: 1px solid $gray;
+      }
+    }
+
+    .radio-section {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .form-group {
+        flex: 1 1 16rem;
+      }
+
+      input {
+        margin-right: .7rem;
+
+        &:checked+label {
+          color: $black;
+        }
+      }
+
+      label {
+        cursor: pointer;
+        font-size: 1.8rem;
+        color: $gray;
+      }
+    }
+
+    select {
+      padding: 1rem 1.2rem;
+      font-size: $default-font;
+      background-color: $light-gray;
+    }
+  }
+
+  .paypal {
+    img {
+      width: 65%;
+    }
+
+    p {
+      color: #8B8B8B;
+    }
+
+    a {
+      font-size: 1.7rem;
+      background-color: #3a5795;
+      color: $white;
+      display: inline-block;
+      padding: 1rem;
+      border-radius: 5px;
+    }
+  }
+}

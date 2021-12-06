@@ -1,0 +1,125 @@
+.slider {
+  user-select: none;
+  cursor: grab;
+}
+
+.product--js {
+  overflow: hidden;
+}
+
+.product {
+  // padding: 2rem 0;
+  border-radius: .5rem;
+  height: 100%;
+  overflow: hidden;
+  background-color: $white;
+
+  &:not(:last-of-type) {
+    border: 1px solid $light-gray;
+  }
+
+  // &:nth-child(even) {
+  // background-color: $primary-color-light;
+  // }
+
+  // &:nth-child(odd) {
+  // background-color: $white;
+  // }
+
+  &__image {
+    position: relative;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+
+    .overlay {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transform: translateY(3rem);
+      transition: $transition-time;
+
+      .overlay-btn {
+        background-color: $black;
+        padding: 1.5rem 2rem;
+        font-size: 2rem;
+        color: $white;
+        border-radius: .5rem;
+        transition: $transition-time;
+
+        &:hover {
+          background-color: $secondary-color;
+        }
+      }
+    }
+
+    &:hover .overlay {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  &__text {
+    padding: .5rem 2.5rem 1.5rem;
+
+    @media (max-width: 576px) {
+      padding: .5rem 1rem;
+    }
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1rem;
+  }
+
+  &__price {
+    font-size: 2rem;
+    padding: 0.5rem;
+
+    span {
+      &:first-child {
+        font-weight: 600;
+      }
+
+      &:last-child {
+        font-weight: 400;
+        text-decoration: line-through;
+      }
+    }
+  }
+
+  &__cart {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #F7F7F7;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--added {
+      font-size: 1.6rem;
+      text-transform: capitalize;
+      opacity: 0;
+    }
+
+    .add-to-cart {
+      padding: 1rem 1.6rem;
+      background-color: $primary-color-light;
+      border: none;
+      outline: none;
+      border-radius: .5rem;
+      cursor: pointer;
+
+      i {
+        font-size: 2.5rem;
+        color: $primary-color;
+      }
+    }
+  }
+}

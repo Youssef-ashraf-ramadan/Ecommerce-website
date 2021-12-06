@@ -1,0 +1,126 @@
+.aside {
+
+  &__section {
+    border: 1px solid $light-gray;
+    border-radius: 5px;
+
+    &--heading {
+      padding: 1.2rem 2rem;
+      background-color: #F7F7F7;
+      font-size: 2.2rem;
+      font-weight: 400;
+    }
+
+    &--body {
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+
+      input[type="search"] {
+        padding: .7rem 1rem;
+        display: inline-block;
+        flex: 1 1 calc(100% - 6rem);
+        max-width: calc(100% - 6rem);
+        background-color: $primary-color-light-2;
+        font-size: $default-font;
+        transition: $transition-time;
+        border: 1px solid $light-gray;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+
+        &:focus {
+          background-color: $white;
+          outline: none;
+          border: 1px solid $gray;
+        }
+      }
+
+      button[type="submit"] {
+        padding: .7rem 1rem;
+        flex: 0 0 6rem;
+        background-color: $primary-color;
+        border: 1px solid $primary-color;
+        color: $white;
+        font-size: $default-font;
+        outline: none;
+        cursor: pointer;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+
+      a {
+        background-color: $black;
+        color: $white;
+        padding: .8rem;
+        border-radius: 5px;
+        margin: .3rem .3rem 0 0;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.clothing .aside {
+  background-color: #EEEEEE;
+
+  &__section {
+    &--heading {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      background-color: $white;
+      border-radius: 5px;
+    }
+
+    &--body {
+      padding: 1rem;
+      display: block;
+
+      ul {
+        li {
+          display: flex;
+          align-items: center;
+
+          &:not(:last-of-type) {
+            margin-bottom: 1.5rem;
+          }
+
+          input[type="checkbox"] {
+            margin-right: 1rem;
+            cursor: pointer;
+          }
+
+          label {
+            font-weight: 600;
+            font-size: 1.7rem;
+            cursor: pointer;
+          }
+        }
+      }
+
+      input[type="search"] {
+        width: 90%;
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+        background-color: $white;
+        text-align: center;
+        margin-bottom: 0.5rem;
+      }
+
+      input[type="submit"] {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        background-color: $secondary-color;
+        text-align: center;
+        color: $white;
+        font-size: 1.8rem;
+        border: 0;
+        padding: 1rem;
+        cursor: pointer;
+      }
+    }
+
+  }
+}

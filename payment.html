@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- META DESCRIPTION -->
+  <meta name="description" content="we have good things">
+  <!-- META KEYWORDS -->
+  <meta name="keywords" content="keywords here">
+  <!-- META AUTHOR -->
+  <meta name="author" content="mohamed khalid">
+  <title>Fashion</title>
+  
+  <link rel="icon" href="resources/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="vendors/css/all.min.css">
+  <link rel="stylesheet" href="vendors/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="resources/css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header py-2">
+    <div class="container">
+      <div class=" first-nav">
+        <div class="container d-flex justify-content-between align-items-center px-1">
+          <div class="header__logo">
+            <a href="index.html" class="font-special">
+              F<span class="letter-sky">H</span>
+            </a>
+          </div>
+      
+          <div class="header__options d-flex align-items-center">
+            <form class="header__options--form mr-2 mr-sm-4">
+              <select class="header__options--form--select mr-2 mr-sm-4" name="category">
+                <option value="all">Search our store</option>
+                <optgroup label="Mens">
+                  <option value="T-Shirts">T-Shirts</option>
+                  <option value="coats-jackets">Coats &amp; Jackets</option>
+                  <option value="Shirts">Shirts</option>
+                  <option value="Suits &amp; Blazers">Suits &amp; Blazers</option>
+                  <option value="Jackets">Jackets</option>
+                  <option value="Sweat Shirts">Trousers</option>
+                </optgroup>
+                <optgroup label="Womens">
+                  <option value="Dresses">Dresses</option>
+                  <option value="T-shirts">T-shirts</option>
+                  <option value="skirts">Skirts</option>
+                  <option value="jeans">Jeans</option>
+                  <option value="Tunics">Tunics</option>
+                </optgroup>
+                <optgroup label="Girls">
+                  <option value="Dresses">Dresses</option>
+                  <option value="T-shirts">T-shirts</option>
+                  <option value="skirts">Skirts</option>
+                  <option value="jeans">Jeans</option>
+                  <option value="Tops">Tops</option>
+                </optgroup>
+                <optgroup label="Boys">
+                  <option value="T-Shirts">T-Shirts</option>
+                  <option value="coats-jackets">Coats &amp; Jackets</option>
+                  <option value="Shirts">Shirts</option>
+                  <option value="Suits &amp; Blazers">Suits &amp; Blazers</option>
+                  <option value="Jackets">Jackets</option>
+                  <option value="Sweat Shirts">Sweat Shirts</option>
+                </optgroup>
+              </select>
+              <input type="submit" value="Search" class="header__options--form--search">
+            </form>
+      
+            <div class="header__icons d-flex">
+              <div class="header__icons--user"><i class="far fa-user"></i></div>
+              <div class="header__icons--cart"><i class="fas fa-cart-plus"><span>0</span></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="index.html" class="navigation__link">Home</a>
+          </li>
+      
+          <li class="navigation__item">
+            <a href="" class="navigation__link dropdown-toggle">Men's clothing</a>
+            <div class="navigation__dropdown">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 mb-4 mb-md-0">
+                    <a class="navigation__dropdown--link" href="men.html">T-Shirts</a>
+                    <a class="navigation__dropdown--link" href="men.html">Coats</a>
+                    <a class="navigation__dropdown--link" href="men.html">Shirts</a>
+                    <a class="navigation__dropdown--link" href="men.html">Suits &amp; Blazers</a>
+                    <a class="navigation__dropdown--link" href="men.html">Jackets</a>
+                    <a class="navigation__dropdown--link" href="men.html">Trousers</a>
+                  </div>
+                  <div class="col-md-4 mb-4 mb-md-0">
+                    <a class="navigation__dropdown--link" href="men.html">T-Shirts</a>
+                    <a class="navigation__dropdown--link" href="men.html">Trousers</a>
+                    <a class="navigation__dropdown--link" href="men.html">Shirts</a>
+                    <a class="navigation__dropdown--link" href="men.html">Suits &amp; Blazers</a>
+                    <a class="navigation__dropdown--link" href="men.html">Coats &amp; Jackets</a>
+                    <a class="navigation__dropdown--link" href="men.html">Jackets</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="navigation__dropdown--link" href="men.html">T-Shirts</a>
+                    <a class="navigation__dropdown--link" href="men.html">Coats</a>
+                    <a class="navigation__dropdown--link" href="men.html">Shirts</a>
+                    <a class="navigation__dropdown--link" href="men.html">Suits &amp; Blazers</a>
+                    <a class="navigation__dropdown--link" href="men.html">Jackets</a>
+                    <a class="navigation__dropdown--link" href="men.html">Trousers</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+      
+          <li class="navigation__item">
+            <a href="" class="navigation__link dropdown-toggle">Women's clothing</a>
+            <div class="navigation__dropdown">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 mb-4 mb-md-0">
+                    <a class="navigation__dropdown--link" href="women.html">Dresses</a>
+                    <a class="navigation__dropdown--link" href="women.html">T-shirts</a>
+                    <a class="navigation__dropdown--link" href="women.html">Skirts</a>
+                    <a class="navigation__dropdown--link" href="women.html">Jeans</a>
+                    <a class="navigation__dropdown--link" href="women.html">Tunics</a>
+                  </div>
+                  <div class="col-md-4 mb-4 mb-md-0">
+                    <a class="navigation__dropdown--link" href="women.html">T-shirts</a>
+                    <a class="navigation__dropdown--link" href="women.html">Dresses</a>
+                    <a class="navigation__dropdown--link" href="women.html">Tunics</a>
+                    <a class="navigation__dropdown--link" href="women.html">Skirts</a>
+                    <a class="navigation__dropdown--link" href="women.html">Jeans</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="navigation__dropdown--link" href="women.html">Dresses</a>
+                    <a class="navigation__dropdown--link" href="women.html">T-shirts</a>
+                    <a class="navigation__dropdown--link" href="women.html">Skirts</a>
+                    <a class="navigation__dropdown--link" href="women.html">Jeans</a>
+                    <a class="navigation__dropdown--link" href="women.html">Tunics</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+      
+          <li class="navigation__item">
+            <a href="" class="navigation__link dropdown-toggle">Kids clothing</a>
+            <div class="navigation__dropdown">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 mb-4 mb-md-0">
+                    <a class="navigation__dropdown--link" href="girls.html">Dresses</a>
+                    <a class="navigation__dropdown--link" href="girls.html">T-shirts</a>
+                    <a class="navigation__dropdown--link" href="girls.html">Skirts</a>
+                    <a class="navigation__dropdown--link" href="girls.html">Jeans</a>
+                    <a class="navigation__dropdown--link" href="girls.html">Tunics</a>
+                  </div>
+                  <div class="col-md-4 mb-4 mb-md-0">
+                    <a class="navigation__dropdown--link" href="boys.html">T-shirts</a>
+                    <a class="navigation__dropdown--link" href="boys.html">Dresses</a>
+                    <a class="navigation__dropdown--link" href="boys.html">Tunics</a>
+                    <a class="navigation__dropdown--link" href="boys.html">Skirts</a>
+                    <a class="navigation__dropdown--link" href="boys.html">Jeans</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="navigation__dropdown--link" href="girls.html">Dresses</a>
+                    <a class="navigation__dropdown--link" href="boys.html">T-shirts</a>
+                    <a class="navigation__dropdown--link" href="girls.html">Skirts</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+      
+          <li class="navigation__item">
+            <a href="shop.html" class="navigation__link">Shop</a>
+          </li>
+          <li class="navigation__item">
+            <a href="blog.html" class="navigation__link">Blog</a>
+          </li>
+          <li class="navigation__item">
+            <a href="contact.html" class="navigation__link">Contact</a>
+          </li>
+        </ul>
+      
+        <button class="navigation__icon d-block d-md-none">
+          <span class="navigation__icon--container">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+      </nav>
+      <!-- /Navigation -->
+    </div>
+  </header>
+
+  <div class="secondary-header">
+    <h1 class="heading-primary white pt-5 text-center">
+      <span class="font-special">F</span>ashion <span class="font-special">H</span>ub
+    </h1>
+  </div>
+  <!-- /Header -->
+
+  <main>
+
+    <!-- Payment -->
+    <section class="payment-section section-padding">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="heading-secondary margin-b-medium"><span class="font-special">P</span>ayment Details</h2>
+
+          <ul class="tabs">
+            <li class="tabs__item"><a href="#cash" class="tabs__link active">CASH ON DELIVERY &#40;COD&#41;</a></li>
+            <li class="tabs__item"><a href="#credit" class="tabs__link">CREDIT / DEBIT</a></li>
+            <li class="tabs__item"><a href="#bank" class="tabs__link">NET BANKING</a></li>
+            <li class="tabs__item"><a href="#account" class="tabs__link">PAYPAL ACCOUNT</a></li>
+          </ul>
+        </div>
+
+        <div class="tabs-body">
+          <div class="tab payment-section__tab active" id="cash">
+            <h5 class="tab-heading mb-5">COD - Now Available</h5>
+            <div class="payment-section__tab--check">
+              <input type="checkbox" id="checkbox">
+              <label for="checkbox">We also accept Credit/Debit card on delivery. Please Check with the agent.</label>
+            </div>
+          </div>
+
+          <div class="tab payment-section__tab" id="credit">
+            <form class="payment-section__tab--form">
+              <div class="form-group">
+                <label for="cardName">Name on card</label>
+                <input type="text" id="cardName" placeholder="Name" autocomplete="off">
+              </div>
+              <div class="form-group">
+                <label for="cardNum">Card Number</label>
+                <input type="text" id="cardNum" placeholder=".... .... .... ...." autocomplete="off">
+              </div>
+              <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" placeholder="..." autocomplete="off">
+              </div>
+              <div class="form-group">
+                <label for="date">Expiration Date</label>
+                <input type="text" id="date" placeholder="MM / YY" autocomplete="off">
+              </div>
+
+              <button type="submit" class="submit-btn">Make payment</button>
+            </form>
+          </div>
+
+          <div class="tab payment-section__tab" id="bank">
+            <h5 class="tab-heading">Select From Popular Banks</h5>
+            <div class="radio-section mb-5">
+              <div class="form-group">
+                <input type="radio" name="bank" id="syndicate">
+                <label for="syndicate">Syndicate Bank</label>
+              </div>
+              <div class="form-group">
+                <input type="radio" name="bank" id="baroda">
+                <label for="baroda">Bank of Baroda</label>
+              </div>
+              <div class="form-group">
+                <input type="radio" name="bank" id="canara">
+                <label for="canara">Canara Bank</label>
+              </div>
+              <div class="form-group">
+                <input type="radio" name="bank" id="ICICI">
+                <label for="ICICI">ICICI Bank</label>
+              </div>
+              <div class="form-group">
+                <input type="radio" name="bank" id="india">
+                <label for="india">State Bank Of India</label>
+              </div>
+            </div>
+
+            <h5 class="tab-heading mb-5">Select Other Bank</h5>
+            <div class="mb-4">
+              <select>
+                <option value="">=== Other Banks ===</option>
+                <option value="ALB-NA">Allahabad Bank NetBanking</option>
+                <option value="ADB-NA">Andhra Bank</option>
+                <option value="BBK-NA">Bank of Bahrain and Kuwait NetBanking</option>
+                <option value="BBC-NA">Bank of Baroda Corporate NetBanking</option>
+                <option value="BBR-NA">Bank of Baroda Retail NetBanking</option>
+                <option value="BOI-NA">Bank of India NetBanking</option>
+                <option value="BOM-NA">Bank of Maharashtra NetBanking</option>
+                <option value="CSB-NA">Catholic Syrian Bank NetBanking</option>
+                <option value="CBI-NA">Central Bank of India</option>
+                <option value="CUB-NA">City Union Bank NetBanking</option>
+                <option value="CRP-NA">Corporation Bank</option>
+                <option value="DBK-NA">Deutsche Bank NetBanking</option>
+                <option value="DCB-NA">Development Credit Bank</option>
+                <option value="DC2-NA">Development Credit Bank - Corporate</option>
+                <option value="DLB-NA">Dhanlaxmi Bank NetBanking</option>
+                <option value="FBK-NA">Federal Bank NetBanking</option>
+                <option value="IDS-NA">Indusind Bank NetBanking</option>
+                <option value="IOB-NA">Indian Overseas Bank</option>
+                <option value="ING-NA">ING Vysya Bank (now Kotak)</option>
+                <option value="JKB-NA">Jammu and Kashmir NetBanking</option>
+                <option value="JSB-NA">Janata Sahakari Bank Limited</option>
+                <option value="KBL-NA">Karnataka Bank NetBanking</option>
+                <option value="KVB-NA">Karur Vysya Bank NetBanking</option>
+                <option value="LVR-NA">Lakshmi Vilas Bank NetBanking</option>
+                <option value="OBC-NA">Oriental Bank of Commerce NetBanking</option>
+                <option value="CPN-NA">PNB Corporate NetBanking</option>
+                <option value="PNB-NA">PNB NetBanking</option>
+                <option value="RSD-DIRECT">Rajasthan State Co-operative Bank-Debit Card</option>
+                <option value="RBS-NA">RBS (The Royal Bank of Scotland)</option>
+                <option value="SWB-NA">Saraswat Bank NetBanking</option>
+                <option value="SBJ-NA">SB Bikaner and Jaipur NetBanking</option>
+                <option value="SBH-NA">SB Hyderabad NetBanking</option>
+                <option value="SBM-NA">SB Mysore NetBanking</option>
+                <option value="SBT-NA">SB Travancore NetBanking</option>
+                <option value="SVC-NA">Shamrao Vitthal Co-operative Bank</option>
+                <option value="SIB-NA">South Indian Bank NetBanking</option>
+                <option value="SBP-NA">State Bank of Patiala NetBanking</option>
+                <option value="SYD-NA">Syndicate Bank NetBanking</option>
+                <option value="TNC-NA">Tamil Nadu State Co-operative Bank NetBanking</option>
+                <option value="UCO-NA">UCO Bank NetBanking</option>
+                <option value="UBI-NA">Union Bank NetBanking</option>
+                <option value="UNI-NA">United Bank of India NetBanking</option>
+                <option value="VJB-NA">Vijaya Bank NetBanking</option>
+              </select>
+            </div>
+            <button class="submit-btn">Play now</button>
+          </div>
+
+          <div class="tab payment-section__tab paypal" id="account">
+            <div class="row">
+              <div class="col-md-6 mb-5 mb-md-0">
+                <img src="./resources/images/paypal.png" alt="paypal" class="mb-4">
+                <p class="mb-5">Important: You will be redirected to PayPal's website to securely complete your payment.</p>
+                <a href="">Checkout via Paypal</a>
+              </div>
+
+              <div class="col-md-6">
+                <form class="payment-section__tab--form">
+                  <div class="form-group">
+                    <label for="cardName">Card Holder</label>
+                    <input type="text" id="cardName" placeholder="Name" autocomplete="off">
+                  </div>
+                  <div class="form-group">
+                    <label for="cardNum">Card Number</label>
+                    <input type="text" id="cardNum" placeholder=".... .... .... ...." autocomplete="off">
+                  </div>
+                  <div class="form-group">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" placeholder="..." autocomplete="off">
+                  </div>
+                  <div class="form-group">
+                    <label for="date">Valid Thru</label>
+                    <input type="text" id="date" placeholder="MM / YY" autocomplete="off">
+                  </div>
+                
+                  <button type="submit" class="submit-btn">Proceed Payment</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Payment -->
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer section-padding px-5">
+    <div class="row px-4">
+      <div class="col-lg-2 col-sm-6 mb-5 mb-lg-0">
+        <h4 class="footer__col-heading">support</h4>
+        <a class="footer__link" href="payment.html">Payment</a>
+        <a class="footer__link" href="shop.html">Shopping</a>
+        <a class="footer__link" href="">Cancellation & Returns</a>
+        <a class="footer__link" href="faq.html">FAQ</a>
+      </div>
+  
+      <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+        <h4 class="footer__col-heading">Latest blog</h4>
+        <div class="footer__blog">
+          <div class="footer__blog--item d-flex align-items-start">
+            <img src="./resources/images/bl2.jpg" alt="">
+            <a class="footer__link" href="blog.html">eveniie arcet ut moles morbi dapiti</a>
+          </div>
+          <div class="footer__blog--item d-flex align-items-start">
+            <img src="./resources/images/bl1.jpg" alt="">
+            <a class="footer__link" href="blog.html">earum rerum tenmorbi dapiti et</a>
+          </div>
+          <div class="footer__blog--item d-flex align-items-start">
+            <img src="./resources/images/bl3.jpg" alt="">
+            <a class="footer__link" href="blog.html">morbi dapiti eveniet ut molesti</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-sm-6 mb-5 mb-lg-0">
+        <h4 class="footer__col-heading">locations</h4>
+        <a class="footer__link" href="payment.html">New Jersey</a>
+        <a class="footer__link" href="faq.html">Texas</a>
+        <a class="footer__link" href="faq.html">Michigan</a>
+        <a class="footer__link" href="faq.html">Canada</a>
+        <a class="footer__link" href="faq.html">Brazil</a>
+        <a class="footer__link" href="faq.html">California</a>
+      </div>
+  
+      <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+        <h4 class="footer__col-heading">Posts</h4>
+        <div class="footer__posts-images">
+          <a href=""><img src="./resources/images/bl4.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl1.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl2.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl3.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl5.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl6.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl5.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl3.jpg" alt=""></a>
+          <a href=""><img src="./resources/images/bl1.jpg" alt=""></a>
+        </div>
+      </div>
+  
+      <div class="col-lg-2 col-sm-6">
+        <h4 class="footer__col-heading">Popular tags</h4>
+        <div class="footer__tags d-flex flex-wrap">
+          <a href="shop.html">amet</a>
+          <a href="shop.html">placerat</a>
+          <a href="shop.html">Proin </a>
+          <a href="shop.html">vehicula</a>
+          <a href="shop.html">diam</a>
+          <a href="shop.html">velit</a>
+          <a href="shop.html">felis</a>
+          <a href="shop.html">mauris</a>
+          <a href="shop.html">amet</a>
+          <a href="shop.html">placerat</a>
+          <a href="shop.html">Proin </a>
+          <a href="shop.html">vehicula</a>
+          <a href="shop.html">diam</a>
+          <a href="shop.html">velit</a>
+          <a href="shop.html">felis</a>
+          <a href="shop.html">mauris</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- /Footer -->
+
+  <!-- loader -->
+  <div class="loader">
+    <div class="fa fa-shopping-basket icon-basket"></div>
+  </div>
+  <!-- /loader -->
+
+
+  <script src="resources/js/global.js"></script>
+  <script src="resources/js/payment.js"></script>
+</body>
+
+</html>
